@@ -29,7 +29,7 @@ const Form = () => {
     <div id="contact">
       <form ref={form} onSubmit={sendEmail} className="w-[80%] py-10 mx-auto">
         <h1 className="font-bold text-xl mb-1 text-black">Contact Us</h1>
-        <p className="text-black mb-5">For Queries or to set up an Appointment, Don't hesitate to contact us</p>
+        <p className="text-black mb-5">For Queries or to set up an Appointment, Dont hesitate to contact us</p>
         <div className="mb-5">
           <label
             for="email"
