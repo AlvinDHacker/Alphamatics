@@ -67,7 +67,7 @@ const Subhero = () => {
 
       <div className="grid md:grid-cols-3 gap-3">
         <a
-          href="/explore"
+          href="/life-insurance"
           className="block hover:shadow-lg relative max-w-sm p-6 hover:translate-x-2 hover:-translate-y-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
         >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -83,7 +83,7 @@ const Subhero = () => {
         </a>
 
         <a
-          href="#"
+          href="/mutual-funds"
           className="block hover:shadow-lg relative max-w-sm p-6 hover:translate-x-2 hover:-translate-y-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
         >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -99,7 +99,7 @@ const Subhero = () => {
         </a>
 
         <a
-          href="#"
+          href="/general-insurance"
           className="block hover:shadow-lg relative max-w-sm p-6 hover:translate-x-2 hover:-translate-y-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
         >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
