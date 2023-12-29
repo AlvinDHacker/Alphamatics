@@ -1,6 +1,7 @@
 import { Mail } from "lucide-react";
 import { Phone } from "lucide-react";
 import { Calendar } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const Provide = () => {
@@ -50,22 +51,30 @@ const Provide = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-3">
-        <a href="tel:9820257477" className="border border-gray-200 shadow-md rounded-full m-2 p-3 px-5 flex flex-row gap-3">
+        <div className="flex flex-row md:gap-3">
+        <a href="tel:9820257477" className="border border-gray-200 shadow-md rounded-full m-1 p-3 md:px-5 flex flex-row gap-3">
         <Phone size={23}/>
+        <p className="md:block hidden"> 
         Call to Know More
+        </p>
         </a>
 
-        <a href="mailto:alphamatics4me@gmail.com" className="border shadow-md border-gray-200 rounded-full m-2 p-3 ">
+        <a href="mailto:alphamatics4me@gmail.com" className="border shadow-md border-gray-200 rounded-full m-1 p-3 ">
         <Mail/>
         </a>
 
-        <a href="book-now" className="border border-gray-200 shadow-md rounded-full m-2 p-3 px-5 flex flex-row gap-3">
+        <a href="book-now" className="border border-gray-200 shadow-md rounded-full m-1 p-3 px-5 flex flex-row gap-3">
         <Calendar/>
+        <p className="md:block hidden">
         Book an Appointment 
+        </p>
+        <p className="md:hidden block">
+            Book Now
+        </p>
         </a>
         </div>
 
+        <Image src='/Life.png' className="mx-auto my-3 border-none" height={1000} width={1000} alt="Life Insurance"/>
 
       </div>
     </div>
