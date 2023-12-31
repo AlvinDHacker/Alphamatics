@@ -8,7 +8,7 @@ const BookApp = () => {
   }
 
   return (
-    <div className="bg-white">
+    <div className="bg-white h-screen">
       <div className="md:w-[70%] w-[90%] mx-auto py-10">
         <div>
           <h1 className="font-bold text-black text-xl py-1">
