@@ -38,15 +38,15 @@ const Navbar = () => {
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="#"
+            href="/"
             className="flex items-center text-black space-x-3 rtl:space-x-reverse"
           >
-            <Image src='/logo.png' height={25} width={25}/>
+            <Image src='/logo.png' className="my-auto" height={30} width={30} alt="logo"/>
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-black">
               Alphamatics
             </span>
           </a>
-          <ul className="flex flex-row md:hidden block">
+          <ul className="flex flex-row md:hidden">
           <li>
                 <a
                   href="mailto:alphamatics4me@gmail.com"
