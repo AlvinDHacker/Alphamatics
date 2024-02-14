@@ -21,7 +21,7 @@ const Subhero = () => {
               Life Insurance
             </h5>
             <p className="font-normal mb-4 text-gray-700 dark:text-gray-400">
-            Ensure financial security for your loved ones with coverage tailored to your family's needs and future goals.
+            Ensure financial security for your loved ones with coverage tailored to your family&apos;s needs and future goals.
             </p>
             <div className="absolute right-0 bottom-0 m-5 text-end justify-end text-black">
               <ChevronRight />
