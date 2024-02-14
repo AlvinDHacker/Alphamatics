@@ -10,10 +10,7 @@ const Provide = () => {
       <div className="w-[80%] mx-auto text-black py-10">
         <h1 className="text-lg mb-3">Life Insurance</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-          voluptates, illo eos labore aliquid sequi numquam. Nostrum voluptas
-          earum aliquid reiciendis obcaecati, repellat, nisi accusantium debitis
-          accusamus unde molestiae officiis?
+        Life insurance provides financial protection to your loved ones in the event of your death, offering peace of mind and security for the future.
         </p>
 
         <div className="py-10 pb-6">
@@ -24,28 +21,25 @@ const Provide = () => {
                 Financial Security
               </h5>
               <p className="font-normal mb-4 text-gray-700 dark:text-gray-400">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
+              Provides a lump sum payment to beneficiaries, to cover expenses such as mortgage, education, and daily expenses.
               </p>
             </div>
 
             <div className="block text-start relative hover:shadow-lg max-w-sm p-6 hover:translate-x-2 hover:-translate-y-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Maintains Standard of Living
+              Income Replacement
               </h5>
               <p className="font-normal mb-4 text-gray-700 dark:text-gray-400">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
+              Ensures that your family maintains their standard of living by replacing lost income.
               </p>
             </div>
 
             <div className="block text-start hover:shadow-lg relative max-w-sm p-6 hover:translate-x-2 hover:-translate-y-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Guaranteed
+              Tax Benefits
               </h5>
               <p className="font-normal mb-4 text-gray-700 dark:text-gray-400">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
+              Death benefits are typically tax-free for beneficiaries, offering tax-efficient wealth transfer and estate planning solutions.
               </p>
             </div>
           </div>
